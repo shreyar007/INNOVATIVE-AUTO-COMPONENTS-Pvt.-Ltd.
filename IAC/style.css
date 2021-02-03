@@ -1,0 +1,222 @@
+.navbar {
+    background-image: linear-gradient(to right, #3bb9ff, #151b54);
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/*-----------------------BANNER SECTION-------------------------------*/
+#banner {
+    background-image: linear-gradient(to right, #3bb9ff, #151b54);
+    color: #fff;
+    padding-top: 100px;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.bottom-img {
+    padding-top: 0.1px;
+    width: 100%;
+}
+
+.img-fluid {
+    padding-bottom: 20px;
+}
+.sub-h {
+    font-size: 20px;
+    font-style: oblique;
+    font-family: inherit;
+}
+
+/*---------------------SERVICES SECTION--------------------*/
+#services {
+    padding: 20px;
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+}
+.title::before {
+    content: '';
+    background-color: #151b54;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background-color: #151b54;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #3bb9ff, #151b54);
+}
+
+/*________________________ABOUT-US____________________*/
+
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+}
+#about-us ul {
+    margin-left: 20px;
+}
+
+/*--------------------------PRODUCTS----------------------------------*/
+#products {
+    margin: 100px 0;
+}
+
+.pimg-fluid {
+    padding-bottom: 20px;
+    display: block;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 150%;
+}
+
+/*------------------------SOCIAL MEDIA---------------------------*/
+#social-media {
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img {
+    width: 30px;
+    transition: 0.5s;
+}
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/*----------------------------FOOTER SECTION--------------------*/
+#footer {
+    background-image: linear-gradient(to right, #3bb9ff, #151b54);
+    color: #fff;
+}
+/*----  .footer-img
+{
+    width: 100%;
+
+}
+------------------------*/
+.footer-box {
+    padding: 20px;
+}
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 50px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #3bb9ff, #151b54);
+}
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box btn btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    background-image: linear-gradient(to right, #3bb9ff, #151b54);
+}
+
+hr {
+    background-color: #fff;
+}
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*-------------------CAREER-------------------------*/
+#career {
+    padding-top: 20px;
+}
+
+.careerimg-fluid {
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.title1::after {
+    content: '';
+    background-color: #151b54;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#career .btn-secondary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: #fff;
+    background-color: beige;
+    font-weight: 700;
+}
+
+/*------------------MISSION AND VISION-------------------*/
